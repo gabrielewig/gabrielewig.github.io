@@ -16,5 +16,5 @@ increase the awareness of other road users. To do so, I’ve created a rear bike
 that responds to the rider’s speed and tells road users when a cyclist is coming to a
 stop with a more visible brake light.
 
-### In progress...
+### Post in progress...
 {: style="text-align: center;"}
