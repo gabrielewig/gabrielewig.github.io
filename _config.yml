@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   with a focus on environmental sustainability.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://gabrielewig.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ewiggabriel
+# twitter_username: ewiggabriel
 github_username:  gabrielewig
 
 # Build settings
