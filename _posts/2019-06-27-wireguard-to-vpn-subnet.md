@@ -4,7 +4,6 @@ title:  "Wireguard to VPN Subnet"
 author: Gabriel Ewig
 date:   2019-06-27
 last_modified_at: 2020-03-31
-categories: networking
 ---
 
 ### Summary

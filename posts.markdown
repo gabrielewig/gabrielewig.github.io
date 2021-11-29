@@ -2,9 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
-title: Portfolio
+layout: post-list
+title: Posts
+permalink: /posts/
 ---
-
-## Portfolio in progress...
-{: style="text-align: center;"}
