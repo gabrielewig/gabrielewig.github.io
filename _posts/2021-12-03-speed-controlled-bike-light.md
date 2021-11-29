@@ -2,8 +2,12 @@
 layout: post
 title:  "Speed Controlled Bike Light"
 author: Gabriel Ewig
-date:   2021-11-03
+date:   2021-12-03
 ---
+
+### Introduction
+
+This post contains instructions for building a prototype of a speed controlled bike light. Using a hall sensor tacometer, this bike light activates a "brake light" when it detects deceleration.
 
 ### Purpose
 Cycling has many environmental and health benefits for individuals and communities
