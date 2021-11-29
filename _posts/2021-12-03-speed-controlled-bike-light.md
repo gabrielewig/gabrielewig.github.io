@@ -283,3 +283,7 @@ The circuit diagrams are broken up into three separate sections. Both the hall s
     }
 
 <br/>
+
+---
+
+<br/>
