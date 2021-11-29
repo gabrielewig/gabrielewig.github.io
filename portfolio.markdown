@@ -3,8 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Home
+title: Portfolio
 ---
 
-## Introduction in progress...
+## Portfolio in progress...
 {: style="text-align: center;"}
+
+![Keithley Rack](/assets/keithleys.jpg)
+{: style="width: 80%; margin: 0 auto;"}
