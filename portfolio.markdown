@@ -6,8 +6,16 @@ layout: default
 title: Portfolio
 ---
 
-## Portfolio in progress...
+# Portfolio
+
+#### Portfolio in progress...
 {: style="text-align: center; font-style: italic;"}
 
+<br/>
+## Cyclikal
+
 ![Keithley Rack](/assets/cyclikal-keithleys.jpg)
-{: style="width: 80%; margin: 0 auto;"}
+{: style="width: 65%; margin: 0 auto;"}
+
+<br/>
+## Bike Components

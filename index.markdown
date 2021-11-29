@@ -6,5 +6,9 @@ layout: default
 title: Home
 ---
 
+![Superior Hiking Trail](/assets/wallpaper-thin.jpg)
+{: style="width: 100%; margin: 0 auto;"}
+
+<br/>
 ## Introduction in progress...
 {: style="text-align: center; font-style: italic;"}
