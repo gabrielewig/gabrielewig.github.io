@@ -7,4 +7,4 @@ title: Home
 ---
 
 ## Introduction in progress...
-{: style="text-align: center;"}
+{: style="text-align: center; font-style: italic;"}

@@ -7,7 +7,7 @@ title: Portfolio
 ---
 
 ## Portfolio in progress...
-{: style="text-align: center;"}
+{: style="text-align: center; font-style: italic;"}
 
 ![Keithley Rack](/assets/cyclikal-keithleys.jpg)
 {: style="width: 80%; margin: 0 auto;"}
