@@ -28,7 +28,7 @@ url: "https://gabrielewig.com" # the base hostname & protocol for your site, e.g
 future: true # show posts scheduled for the future
 # twitter_username: ewiggabriel
 github_username:  gabrielewig
-linkedin_username: gabriel-ewig-115909158
+linkedin_username: gabrielewig
 
 # Build settings
 theme: minima
