@@ -6,7 +6,7 @@ layout: default
 title: Home
 ---
 
-![Superior Hiking Trail](/assets/wallpaper-thin.jpg)
+![Wallpaper Image](/assets/wallpapers/wallpaper-4.jpg)
 {: style="width: 100%; margin: 0 auto;"}
 
 <br/>
