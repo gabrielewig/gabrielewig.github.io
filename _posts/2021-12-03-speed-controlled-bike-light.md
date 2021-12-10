@@ -12,6 +12,8 @@ Although we will need many policy and infrastructure changes to address this iss
 
 <center><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hB0hvMajwjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
+[^1]: “Four Types of Transportation Cyclists, Bicycle Counts, The City of Portland, Oregon.” Accessed October 6, 2021. [https://www.portlandoregon.gov/transportation/article/158497](https://www.portlandoregon.gov/transportation/article/158497).
+
 <br/>
 
 ### Overview
@@ -27,6 +29,9 @@ When updating the LED state, the Arduino references this list and compares the l
 
 ![Overall Light and Flywheel](/assets/sc-bike-light/overall.jpg)
 {: style="width: 80%; margin: 0 auto;"}
+
+[^2]: “Introduction to Arduino Interrupts and the ATmega328 Analog Comparator – Fiz-Ix.” Accessed October 26, 2021. [http://www.fiz-ix.com/2012/01/introduction-to-arduino-interrupts-and-the-atmega328-analog-comparator/](http://www.fiz-ix.com/2012/01/introduction-to-arduino-interrupts-and-the-atmega328-analog-comparator/).
+
 <br/>
 
 ### Design Considerations
@@ -52,9 +57,6 @@ Finally, tape the hall sensor to the stand at the same radius as the magnet, and
 ### Operating Instructions
 
 The only user input to the device is the slide potentiometer. Moving it along the track will increase and decrease the speed of the wheel. At steady speed and while increasing the speed, the lights flash normally. Then, when the speed is decreased suddenly, the lights go solid to indicate braking.
-
-[^1]: “Four Types of Transportation Cyclists, Bicycle Counts, The City of Portland, Oregon.” Accessed October 6, 2021. https://www.portlandoregon.gov/transportation/article/158497.
-[^2]: “Introduction to Arduino Interrupts and the ATmega328 Analog Comparator – Fiz-Ix.” Accessed October 26, 2021. http://www.fiz-ix.com/2012/01/introduction-to- arduino-interrupts-and-the-atmega328-analog-comparator/.
 
 ### Download CAD and Code Files
 
