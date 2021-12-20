@@ -8,9 +8,9 @@ last_modified_at: 2020-03-31
 
 ### Summary
 
-By connecting both a computer on the internal LAN and various clients to a centralized VPS with a static IP, we can use WireGuard to access a local network behind a permanent NAT/Firewall. WireGuard provides a fast and simple vpn protocol which works well for this situation. However, it should be noted that WireGuard is still under heavy development and has not undergone security audits. I would recommend reading more about WireGuard, particularly the "Conceptual Overview" here: <https://www.wireguard.com/>, before trying this example.
+By connecting both a computer on the internal LAN and various clients to a centralized VPS with a static IP, we can use WireGuard to access a local network behind a permanent NAT/Firewall. WireGuard provides a fast and simple VPN protocol which works well for this situation. However, it should be noted that WireGuard is still under heavy development and has not undergone security audits. I would recommend reading more about WireGuard, particularly the "Conceptual Overview" here: <https://www.wireguard.com/>, before trying this example.
 
-For this example I will refer to the following three clients. Although our VPS acts as a "server", each computer is considered a client by WireGuard.
+For this example, I will refer to the following three clients. Although our VPS acts as a "server", each computer is considered a client by WireGuard.
 
 *   A local client on the desired LAN (such as Pi)
     *   "lan"
@@ -28,7 +28,7 @@ For this example I will refer to the following three clients. Although our VPS a
     *   Local IP: Any DHCP Address
     *   Running Mac or Windows
 
-For reference, the local network is on `10.10.1.0/24` while the WireGuard clients are on `10.10.2.0/24`. Obviously these can and should be adjusted as necessary.
+For reference, the local network is on `10.10.1.0/24` while the WireGuard clients are on `10.10.2.0/24`. These can and should be adjusted as necessary.
 
 ### Installing WireGuard and Configuring the System
 
@@ -54,7 +54,7 @@ Finally, we need to create a directory for our WireGuard configurations.
 
 ### Generating Keys
 
-WireGuard uses a public/private key pair to encrypt packets sent along the interface. On each client needs to locally generate a key pair using `wg genkey` and `wg pubkey`. GUI clients will create these automatically, but in a terminal you can quickly save them to files with the following command.
+WireGuard uses a public/private key pair to encrypt packets sent along the interface. On each client needs to locally generate a key pair using `wg genkey` and `wg pubkey`. GUI clients will create these automatically, but in a terminal, you can quickly save them to files with the following command.
 
     umask 077 # Prevent credential leak
     wg genkey | tee privatekey | wg pubkey > publickey
@@ -66,7 +66,7 @@ I recommend saving them in the save directory as your configuration files, `/etc
 
 ### Configuring WireGuard
 
-`wg-quick` uses simple configuration files to create each WireGuard interface. Create a configuration in `/etc/wireguard` or through the GUI. Configuration files should be named whatever you wan to call the wireguard interface, generally `wg0.conf` or `wg1.conf`. Below are the three configurations used in this example.
+`wg-quick` uses simple configuration files to create each WireGuard interface. Create a configuration in `/etc/wireguard` or through the GUI. Configuration files should be named whatever you want to call the wireguard interface, generally `wg0.conf` or `wg1.conf`. Below are the three configurations used in this example.
 
 ##### LAN configuration
     [Interface]
@@ -114,7 +114,7 @@ Although generally straightforward, a few of these entries deserve some explanat
 
 *   `PostUp` and `PostDown` on the LAN client create the necessary routing rules to allow traffic to pass between the local and vpn networks. There *are* other routing rules required, but `wg-quick` should take care of them.
 *   The `Endpoint` and `PersistentKeepalive` entries on the Laptop and LAN clients is what allows them to communicate from behind a NAT. `Endpoint` initiates a direct connection to the VPS, while `PersistentKeepalive` keeps them in communication from behind any router. In this case it refreshes the link every 25 seconds.
-*   `AllowedIPs` controls which devices or networks can communicate over an interface. WireGuard uses this to setup routing rules as well as which connections to allow or drop. If you expect a peer to send or receive packets from a client or network it should be included in its `AllowedIPs`.
+*   `AllowedIPs` controls which devices or networks can communicate over an interface. WireGuard uses this to setup routing rules as well as which connections to allow or drop. If you expect a peer to send or receive packets from a client or network, it should be included in its `AllowedIPs`.
 
 ### Testing the Network
 
@@ -122,7 +122,7 @@ To initialize an interface run simply run the following command, replacing `wg0`
 
     wg-quick up wg0
 
-After starting the interface on each device, check the status of each using the `wg` command. You should see an output similar to this on the VPS:
+After starting the interface on each device, check the status of each using the `wg` command. You should see an output like this on the VPS:
 
     interface: wg0
       public key: <vps public key>
@@ -145,7 +145,7 @@ Finally, check to see if the laptop can access all clients as well as something 
 
 ### Firewall Configuration
 
-Generally it is a good idea to have a firewall setup on your computer. Given the wide variety of situations, I cannot recommend one certain setup, but can provide one option.
+Generally, it is a good idea to have a firewall setup on your computer. Given the wide variety of situations, I cannot recommend one certain setup, but can provide one option.
 
 ##### Ubuntu
 
@@ -155,7 +155,7 @@ I can't figure out how to use ufw while allowing wireguard to forward. Let me kn
 
 ##### CentOS
 
-Using FirewallD and CentOS, we can configure a basic firewall using `firewall-cmd`. Probably the easiest way to allow connections through WireGuard, while still maintaining some level of outside security is to set the `eth0` and `wg0` interfaces to different zones with different rules. By default `eth0` exists on the `public` zone, and you can change `wg0` to the `home` zone with this command.
+Using FirewallD and CentOS, we can configure a basic firewall using `firewall-cmd`. Probably the easiest way to allow connections through WireGuard, while still maintaining some level of outside security is to set the `eth0` and `wg0` interfaces to different zones with different rules. By default, `eth0` exists on the `public` zone, and you can change `wg0` to the `home` zone with this command.
 
     firewall-cmd --permanent --zone=home --change-interface=wg0
 
@@ -185,14 +185,14 @@ The [Pi-Hole website](https://pi-hole.net/) provides instructions for a basic in
 
 ### Diagnosing Connections
 
-If you encounter problems making a connection try checking some of these common problems:
+If you encounter problems making a connection, try checking some of these common problems:
 
 ##### WireGuard interface doesn't start
 *   If using a GUI, run from the command line to check for configuration errors.
 *   Use `-v` to see additional information.
 
 ##### Cannot ping other clients or no handshake
-*   Check that thee VPS public IP is visible.
+*   Check that the VPS public IP is visible.
 *   Verify that each public/private key pair is correct in each configuration.
 *   Check the `wg-quick` output for configuration errors.
 
