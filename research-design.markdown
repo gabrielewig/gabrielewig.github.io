@@ -3,10 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Portfolio
+title: Research & Design
 ---
 
-# Portfolio
+# Research and Design
 
 #### Portfolio in progress...
 {: style="text-align: center; font-style: italic;"}
