@@ -38,8 +38,7 @@ plugins:
 
 header_pages:
   - index.markdown
-  - research-design.markdown
-  - media.markdown
+  - portfolio.markdown
   - posts.markdown
 
 # Exclude from processing.

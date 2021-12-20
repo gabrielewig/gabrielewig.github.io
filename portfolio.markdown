@@ -3,22 +3,22 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Research & Design
+title: Portfolio
+permalink: /portfolio/
 ---
 
-# Research and Design
-
-#### Portfolio in progress...
-{: style="text-align: center; font-style: italic;"}
+# Portfolio
 
 <br/>
 ## Cyclikal
+{: id="research"}
 
 ![Keithley Rack](/assets/keithleys.jpg)
 {: style="width: 65%; margin: auto auto;"}
 
 <br/>
 ## Bike Components
+{: id="design"}
 
 ![Machining](/assets/machine-1.jpg)
 {: style="width: 30%; float: right; margin: 100px auto;"}

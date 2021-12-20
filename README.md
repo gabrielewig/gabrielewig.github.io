@@ -1,2 +1,2 @@
 # gabrielewig.github.io
-Gabriel Ewig's Portfolio
+Gabriel Ewig's Portfolio Website

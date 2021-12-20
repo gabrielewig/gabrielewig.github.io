@@ -6,7 +6,7 @@ layout: default
 title: Media
 ---
 
-# Media Portfolio
+# Media
 
 #### Media portfolio in progress...
 {: style="text-align: center; font-style: italic;"}
