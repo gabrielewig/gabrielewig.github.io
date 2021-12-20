@@ -6,9 +6,11 @@ layout: default
 title: Home
 ---
 
-![Wallpaper Image](/assets/wallpapers/wallpaper-4.jpg)
+![Lock and Dam Along the Erie Canal](/assets/wallpaper-erie-canal.jpg)
 {: style="width: 100%; margin: 0 auto;"}
 
-<br/>
-## Introduction in progress...
-{: style="text-align: center; font-style: italic;"}
+Gabriel is an undergraduate student studying mechanical engineering with a focus on environmental sustainability.
+He is interested in applying engineering solutions to environmental issues in fields such as renewable energy and transportation.
+<br/><br/>
+This website contains a portfolio of Gabriel's work including [research](/portfolio.html), [design](/portfolio.html), and media, as well as a number of [posts](/posts) about various projects and interests.
+{: style="text-align: left; margin: 80px;"}
