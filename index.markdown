@@ -13,4 +13,4 @@ Gabriel is an undergraduate student studying mechanical engineering with a focus
 He is interested in applying engineering solutions to environmental issues in fields such as renewable energy and transportation.
 <br/><br/>
 This website contains a [portfolio](/portfolio) with some of Gabriel's work and several [posts](/posts) about various projects and interests.
-{: style="text-align: left; margin: 10%;"}
+{: style="text-align: left; margin: 5%;"}
