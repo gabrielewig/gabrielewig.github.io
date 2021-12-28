@@ -21,7 +21,7 @@ My work focused on developing the [Cyckei](https://docs.cyclikal.com/projects/cy
 
 I have explored manufacturing small components with 3D printing and manual machining techniques. Some of these projects are bicycle related and stem from issues I have run into while working as a professional mechanic, while others are just fun opportunities to practice designing and fabricating various objects.
 
-Pictured are a selection of items I've made including machined aluminum top caps for bike cockpits, a font light and GoPro compatible mount, and some bits that help with common bike repairs such as hydraulic brake caliper service and bleeding.
+Pictured are a selection of items I've made including machined aluminum top caps for bike cockpits, a front light and GoPro compatible mount, and some bits that help with common bike repairs such as hydraulic brake caliper service and bleeding.
 
 
 <style>
