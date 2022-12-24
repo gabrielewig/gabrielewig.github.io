@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Home
+title: Portfolio
 ---
 
 ![Lock and Dam Along the Erie Canal](/assets/wallpaper-erie-canal.jpg)
@@ -23,17 +23,17 @@ He is interested in applying engineering solutions to environmental issues in fi
 
 My research with the [SEA Lab](https://sea.mae.cornell.edu/) has focused on developing maps and modeling to asses the potential of wave-powered aquaculture along the northeast coast of the US. By estimating the carrying capacity of different locations and looking at potential conflicts between fisheries and offshore infrastructure, we have been able to identify promising sites along with yield and costs estimates for them.
 
-My work has involved processing GIS datasets of environmental and wave conditions and integrating them into the Python model that optimizes for carrying capacity and cost. I created this map to analyze areas where offshore wind development may conflict with fishing traffic, an important consideration as we transition to renewable energy and develop more offshore infrastructure. Highlighted is also one of our optimal locations for a wave-powered aquaculture farm.
+I have focused on processing GIS datasets of environmental conditions and integrating them into the Python model that optimizes for carrying capacity and cost. I have also used some techniques from marine spatial planning to analyze other factors such as conflicts between offshore wind development and commercial fishing. This map shows some of those conflicts and highlights one of our optimal locations for a wave-powered aquaculture farm.
 
 
 ## Mechanical Synthesis
 
-My course on mechanical synthesis focused on the design and manufacturing of mechanical components. I worked on two final projects as well as several smaller pieces and CAD models throughout the course which are pictured here.
+My course on mechanical synthesis focused on the design and manufacturing of mechanical components. I worked on two final projects as well as several smaller pieces and CAD models throughout the course including a Reuleaux machine and a milk frother.
 
 For the original design project, we interviewed a nurse about his challenges transporting patients in a hospital setting, and created a prototype hospital bed to address this issue. The bed uses a removable stretcher, attachments for medical equipment, and a scissor lift mechanism to achieve this. We prototyped the device by laser-cutting the bed and scissor lift mechanism and using a rack and pinion to control the bed's lift. The second project involved designing a water pump. My group choose to create a peristaltic pump which pumps fluid without contact with the pump mechanism. Our design is adjustable and uses a combination of machined and laser-cut components.
 
 | ![Bed Lift 1](/assets/design/lift-1.jpg) | ![Reuleaux Machine](/assets/design/reuleaux.jpg) | ![Peristaltic Pump 2](/assets/design/pump-2.jpg) |
-| ![Bed Lift 1](/assets/design/lift-2.jpg) | ![Peristaltic Pump 1](/assets/design/pump-1.jpg) | ![Milk Frother 2](/assets/design/frother-2.jpg)  |
+| ![Bed Lift 1](/assets/design/lift-2.jpg) | ![Peristaltic Pump 1](/assets/design/pump-1.jpg) | ![Milk Frother](/assets/design/frother.jpg)  |
 
 
 ## Cyclikal
