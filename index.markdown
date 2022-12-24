@@ -48,7 +48,7 @@ For the original design project, we interviewed a nurse about his challenges tra
 
 ## Mechatronics & Fluids
 
-In mechatronics I learned about circuitry and microcontroller use in engineering projects. The course culminated in two final projects including an small autonomous robot which was used in a competition and a speed controlled bike light. Both used Arduino microcontrollers, a variety of sensors, and laser-cut and 3D printed components.
+In mechatronics I learned about circuitry and microcontroller use in engineering projects. The course culminated in two final projects including an small autonomous robot which was used in a competition and a speed controlled bike light. Both used Arduino microcontrollers, a variety of sensors, and laser-cut and 3D printed components. More documentation for the bike light is included in [this post]({% post_url 2021-12-03-speed-controlled-bike-light %}).
 
 Also pictured is the hard disk from a "fluid mechanical dissection" which we completed to understand the flow in a hard drive air bearing. This air bearing uses viscous flow, as described by the Navier-Stokes equation, to keep the head elevated above the plate.
 
