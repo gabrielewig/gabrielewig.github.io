@@ -44,8 +44,7 @@ My course on mechanical synthesis focused on the design and manufacturing of mec
 
 For the original design project, we interviewed a nurse about his challenges transporting patients in a hospital setting, and created a prototype hospital bed to address this issue. The bed uses a removable stretcher, attachments for medical equipment, and a scissor lift mechanism to improve patient transportation. We prototyped the device by laser-cutting the bed and scissor lift mechanism and using a rack and pinion to control the bed's lift. The second project involved designing a water pump. My group chose to create a peristaltic pump which pumps fluid without contact with the pump mechanism. Our design is adjustable and uses a combination of machined and laser-cut components.
 
-{% include image-gallery.html folder="assets/design-1" %}
-{% include image-gallery.html folder="assets/design-2" %}
+{% include image-gallery.html folder="assets/design" %}
 
 ## Mechatronics & Fluids
 
@@ -59,8 +58,7 @@ Also pictured is the hard disk from a "fluid mechanical dissection" which we com
 
 I have explored fabrication of small components with 3D printing and manual machining techniques. Some of these projects are bicycle related and stem from issues I have run into while working as a professional bicycle mechanic, while others are just to practice designing and fabricating various objects. Pictured are a selection of items I have made including machined aluminum top caps for bike cockpits, a front light and GoPro compatible mount, and some parts that help with common bike repairs such as hydraulic brake caliper service and bleeding.
 
-{% include image-gallery.html folder="assets/hobby-1" %}
-{% include image-gallery.html folder="assets/hobby-2" %}
+{% include image-gallery.html folder="assets/hobby" %}
 
 <style>
   h1 {
