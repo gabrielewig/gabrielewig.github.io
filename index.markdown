@@ -20,7 +20,7 @@ He is interested in applying engineering solutions to environmental issues in fi
 
 ## Wave-Powered Aquaculture
 
-![Map of Fishing Conflicts](/assets/conflicts-map.png)
+[![Map of Fishing Conflicts](/assets/conflicts-map.png)](/assets/conflicts-map.png)
 {: style="width: 60%; float: left; margin: 2%;"}
 
 My research with the [SEA Lab](https://sea.mae.cornell.edu/) has focused on developing maps and modeling to assess the potential of wave-powered aquaculture along the northeast coast of the US. Offshore aquaculture powered by wave energy converters (WECs) has several benefits including decreased local environmental impact and fossil fuel use. By estimating the carrying capacity of different locations and looking at potential conflicts between fisheries and offshore infrastructure, we have been able to identify promising sites along with yield and costs estimates for them.
@@ -51,7 +51,7 @@ For the original design project, we interviewed a nurse about his challenges tra
 
 In mechatronics I learned about circuitry and microcontroller use in engineering projects. The course culminated in two final projects including an small autonomous robot which was used in a competition and a speed controlled bike light
 
-{% include image-gallery.html folder="/assets/design" %}
+{% include image-gallery.html folder="assets/design" %}
 
 
 # Independent Design
