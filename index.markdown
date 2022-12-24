@@ -9,7 +9,7 @@ title: Portfolio
 ![Lock and Dam Along the Erie Canal](/assets/wallpaper-erie-canal.jpg)
 {: style="width: 100%; margin: 0 auto;"}
 
-Gabriel is an undergraduate student studying mechanical engineering with a focus on environmental sustainability.
+Gabriel is an undergraduate student at Cornell University studying mechanical engineering with a focus on environmental sustainability.
 He is interested in applying engineering solutions to environmental issues in fields such as renewable energy and transportation. This webpage serves as a portfolio with some of Gabriel's work and several [posts](/posts) about various projects and interests.
 {: style="text-align: left; margin-top: 5%;"}
 
@@ -42,7 +42,7 @@ For the original design project, we interviewed a nurse about his challenges tra
 
 Starting in 2019, I worked as a developer and lab technician at [Cyclikal](https://cyclikal.com/), a company providing high precision calorimetry testing for lithium-ion batteries.
 
-My work focused on developing the [Cyckei](https://docs.cyclikal.com/projects/cyckei/en/stable/) software package which automates voltage and current steps and data handling while cycling li-ion cells. Older versions of the software and accompanying tools are open source and [available on GitHub](https://github.com/cyclikal/cyckei).
+My work focused on developing the [Cyckei](https://docs.cyclikal.com/projects/cyckei/en/stable/) software package which automates voltage and current steps and data handling while cycling li-ion cells. The software and accompanying tools are open source and [available on GitHub](https://github.com/cyclikal/cyckei).
 
 
 ## Hobby Components
