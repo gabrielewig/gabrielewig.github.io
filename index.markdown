@@ -6,6 +6,8 @@ layout: default
 title: Portfolio
 ---
 
+{% include header.html %}
+
 ![Lock and Dam Along the Erie Canal](/assets/wallpaper-erie-canal.jpg)
 {: style="width: 100%; margin: 0 auto;"}
 
@@ -68,3 +70,5 @@ I have explored fabrication of small components with 3D printing and manual mach
 
 <script type="text/javascript" src="/js/lightbox.js"></script>
 <link rel="stylesheet" href="/css/lightbox.css">
+
+{% include footer.html %}
