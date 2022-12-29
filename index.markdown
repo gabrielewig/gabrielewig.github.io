@@ -23,9 +23,9 @@ He is interested in applying engineering solutions to environmental issues in fi
 [![Map of Fishing Conflicts](/assets/conflicts-map.png)](/assets/conflicts-map.png)
 {: style="width: 60%; float: left; margin: 2%;"}
 
-My research with the [SEA Lab](https://sea.mae.cornell.edu/) has focused on developing maps and modeling to assess the potential of wave-powered aquaculture along the northeast coast of the US. Offshore aquaculture powered by wave energy converters (WECs) has several benefits including decreased local environmental impact and fossil fuel use. By estimating the carrying capacity of different locations and looking at potential conflicts between fisheries and offshore infrastructure, we have been able to identify promising sites along with yield and costs estimates for them.
+My research with the [SEA Lab](https://sea.mae.cornell.edu/) has focused on developing maps and models to assess the potential of wave-powered aquaculture along the northeast coast of the US. Offshore aquaculture powered by wave energy converters (WECs) has several benefits including decreased local environmental impact and fossil fuel use. By estimating the carrying capacity of different locations and looking at potential conflicts between fisheries and offshore infrastructure, we have been able to identify promising sites along with yield and costs estimates for them. I work alongside a PhD student and a post-doc in the lab, in addition to several industry partners and groups who we consult for information about their logistics and to ensure that our research is relevant to their work.
 
-I have focused on processing GIS datasets of environmental conditions and integrating them into a Python model that optimizes for carrying capacity and cost. I have also used some techniques from marine spatial planning to analyze other factors such as conflicts between offshore wind development and commercial fishing. This map shows some of those conflicts and highlights one of our optimal locations for a wave-powered aquaculture farm.
+My portion of the project has focused on processing GIS datasets of environmental conditions and integrating them into a Python model that optimizes for carrying capacity and cost. I have also used some techniques from marine spatial planning to analyze other factors such as conflicts between offshore wind development and commercial fishing. This map shows some of those conflicts and highlights one of the optimal locations we have found for a wave-powered aquaculture farm.
 
 ## Cyclikal
 
@@ -40,17 +40,19 @@ My work focused on developing the [Cyckei](https://docs.cyclikal.com/projects/cy
 
 ## Mechanical Synthesis
 
-My course on mechanical synthesis focused on the design and manufacturing of mechanical components. I worked on two final projects as well as several smaller pieces and CAD models throughout the course including a Reuleaux machine and a milk frother.
+My course on mechanical synthesis focused on the design and manufacturing of mechanical components. I worked on two final projects as well as several smaller pieces and CAD models throughout the course including a Reuleaux machine and a milk frother to practice more complex designs.
 
-For the original design project, we interviewed a nurse about his challenges transporting patients in a hospital setting, and created a prototype hospital bed to address this issue. The bed uses a removable stretcher, attachments for medical equipment, and a scissor lift mechanism to improve patient transportation. We prototyped the device by laser-cutting the bed and scissor lift mechanism and using a rack and pinion to control the bed's lift. The second project involved designing a water pump. My group chose to create a peristaltic pump which pumps fluid without contact with the pump mechanism. Our design is adjustable and uses a combination of machined and laser-cut components.
+For the original design project, a partner and I interviewed a nurse about the challenges he experienced in a hospital setting. We identified the transportation of patients as a key issue, and created a prototype hospital bed to address this. The bed uses a removable stretcher, attachments for medical equipment, and a scissor lift mechanism to improve patient transportation. We prototyped the device by laser-cutting the bed and scissor lift mechanism and using a rack and pinion to control the bed's lift.
+
+The second project involved designing a water pump with a small group. We chose to create a peristaltic pump which works without having fluid contact the pump mechanism. Our design is adjustable for different tubing sizes and uses a combination of machined and laser-cut components. Much of the process was collaborative, but I focused on many of the initial sketches and fabricating the pump rollers on a lathe.
 
 {% include image-gallery.html folder="assets/design" %}
 
 ## Mechatronics & Fluids
 
-In mechatronics I learned about circuitry and microcontroller use in engineering projects. The course culminated in two final projects including an small autonomous robot which was used in a competition and a speed controlled bike light. Both used Arduino microcontrollers, a variety of sensors, and laser-cut and 3D printed components. More documentation for the bike light is included in [this post]({% post_url 2021-12-03-speed-controlled-bike-light %}).
+In mechatronics I learned about circuitry and microcontroller use in engineering projects. The course culminated in two final projects: a group project that included building a small autonomous robot for a competition, and an individual project where I prototyped a bike light that changes behavior based on speed. Both used Arduino microcontrollers, a variety of sensors, and laser-cut and 3D printed components. More documentation for the bike light is included in [this post]({% post_url 2021-12-03-speed-controlled-bike-light %}).
 
-Also pictured is the hard disk from a "fluid mechanical dissection" which we completed to understand the flow in a hard drive air bearing. This air bearing uses viscous flow, as described by the Navier-Stokes equation, to keep the head elevated above the plate.
+Also pictured is the hard disk from a "fluid mechanical dissection" which I completed with a small team to understand the fluid flow in a hard drive air bearing. This air bearing uses viscous flow, as described by the Navier-Stokes equation, to keep the head elevated at a precise distance above the plate.
 
 {% include image-gallery.html folder="assets/mech-fluids" %}
 
