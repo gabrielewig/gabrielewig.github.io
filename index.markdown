@@ -27,9 +27,15 @@ My research with the [SEA Lab](https://sea.mae.cornell.edu/) has focused on deve
 
 My portion of the project has focused on processing GIS datasets of environmental conditions and integrating them into a Python model that optimizes for carrying capacity and cost. I have also used some techniques from marine spatial planning to analyze other factors such as conflicts between offshore wind development and commercial fishing. This map shows some of those conflicts and highlights one of the optimal locations we have found for a wave-powered aquaculture farm.
 
+## Mini-WEC
+
+This miniature wave energy converter is another project at the [SEA Lab](https://sea.mae.cornell.edu/) where a PhD student and I built a small but functional WEC for use as a teaching tool in a K-12 classroom. The WEC works in a small aquarium, uses a rack and pinion as a power take-off mechanism, and uses an Arduino running a feedback control loop to control power generation. The device can generate some power, but further testing is needed to compare it to our modeled predictions. We also brought the WEC to a local third grade classroom and used it as a part of a lesson on renewable energy. After learning about WECs more generally, the children were able to make waves in the tank and see how much energy they could generate.
+
+{% include image-gallery.html folder="assets/mini-wec" %}
+
 ## Cyclikal
 
-![Rack of Keithley Power Supplies](/assets/keithleys.jpg)
+[![Rack of Keithley Power Supplies](/assets/keithleys.jpg)](/assets/keithleys.jpg)
 {: style="width: 40%; float: right; margin: 2%;"}
 
 I worked as a developer and lab technician at [Cyclikal](https://cyclikal.com/), a company providing high precision calorimetry testing for lithium-ion batteries.
@@ -42,7 +48,7 @@ My work focused on developing the [Cyckei](https://docs.cyclikal.com/projects/cy
 
 My course on mechanical synthesis focused on the design and manufacturing of mechanical components. I worked on two final projects as well as several smaller pieces and CAD models throughout the course including a Reuleaux machine and a milk frother to practice more complex designs.
 
-For the original design project, a partner and I interviewed a nurse about the challenges he experienced in a hospital setting. We identified the transportation of patients as a key issue, and created a prototype hospital bed to address this. The bed uses a removable stretcher, attachments for medical equipment, and a scissor lift mechanism to improve patient transportation. We prototyped the device by laser-cutting the bed and scissor lift mechanism and using a rack and pinion to control the bed's lift.
+For the original design project, a partner and I interviewed a nurse about the challenges he experienced in a hospital setting. We identified the transportation of patients as a key issue and created a prototype hospital bed to address this. The bed uses a removable stretcher, attachments for medical equipment, and a scissor lift mechanism to improve patient transportation. We prototyped the device by laser-cutting the bed and scissor lift mechanism and using a rack and pinion to control the bed's lift.
 
 The second project involved designing a water pump with a small group. We chose to create a peristaltic pump which works without having fluid contact the pump mechanism. Our design is adjustable for different tubing sizes and uses a combination of machined and laser-cut components. Much of the process was collaborative, but I focused on many of the initial sketches and fabricating the pump rollers on a lathe.
 
